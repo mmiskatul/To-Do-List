@@ -4,9 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To Do list</title>
+    
     <link href="./output.css" rel="stylesheet">
 </head>
 <body class="m-0 p-0 ">
-    
+    <div class="container w-[100%] min-h-screen bg-gradient-to-br from-blue-900  to-purple-900  p-2.5">
+        <div class="todo-app w-full max-w-xl bg-white mt-24 mb-5 mx-auto pt-10 px-8 pb-16 rounded-xl">
+            <h2 class=" text-blue-900 flex items-center mb-5">To DO List <img class="w-8 ml-2.5" src="images/icon.png" alt=""></h2>
+            <div class="row flex items-center justify-between bg-[#edeef0] rounded-4xl pl-8 mb-6">
+                <input class="flex-1 border-none outline-none bg-transparent p-2.5 " id="input-box" type="text" placeholder="Enter your Task ">
+                <button class=" btn  border-none outline-none py-4 px-12 text-white text-xl bg-amber-500 rounded-4xl hover:cursor-pointer">Add</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
